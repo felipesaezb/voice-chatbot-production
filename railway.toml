@@ -2,5 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "npm run build && npm start"
+startCommand = "npm start"
 healthcheckPath = "/api/health"
